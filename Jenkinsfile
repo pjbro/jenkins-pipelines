@@ -1,6 +1,6 @@
 node {
   stage('Build') {
-    sh 'pwd'
+    git 'https://github.com/pjbro/cosnics-build.git'
   }
 
   stage('Test') {
